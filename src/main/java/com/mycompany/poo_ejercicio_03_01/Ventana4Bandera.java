@@ -42,7 +42,6 @@ public class Ventana4Bandera extends JFrame
     public void iniciarComponentes()
     {
         this.iniciarJLabelList();
-        this.iniciarJLabelListBandera();
         this.iniciarBandera();
         this.crearJPanel();
         
@@ -169,33 +168,12 @@ public class Ventana4Bandera extends JFrame
         this.jLabelListBandera.get(67).setBackground(Color.RED);
         this.jLabelListBandera.get(68).setBackground(Color.RED);
         this.jLabelListBandera.get(69).setBackground(Color.RED);
-        //this.jLabelListBandera.get(70).setBackground(Color.RED);
-        
-        
-        
-        
-        
-        
-        
-        
+       
         for(int i=0; i<70; i++)
         {
             jPanelBandera.add(jLabelListBandera.get(i));
             this.jLabelListBandera.get(i).setOpaque(true);
         }
         
-    }
-    public void iniciarJLabelListBandera()
-    {
-        /*jLabelListBandera=new ArrayList<>();
-        for(int i=0; i<81; i++){
-            jLabelListBandera.add(new JLabel());
-        }
-        this.jLabelListBandera.get(0).setBackground(Color.RED);
-        this.jLabelListBandera.get(0).setOpaque(true);
-        this.jLabelListBandera.get(1).setBackground(Color.WHITE);
-        this.jLabelListBandera.get(1).setOpaque(true);
-        this.jLabelListBandera.get(2).setBackground(Color.BLUE);
-        this.jLabelListBandera.get(2).setOpaque(true);*/
     }
 }
